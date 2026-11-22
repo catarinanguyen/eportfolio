@@ -184,3 +184,9 @@ footer .right a{color:#fff}
 .portrait{z-index:0}
 .card:nth-child(2) .eyebrow{color:var(--rose)!important}.card:nth-child(3) .eyebrow{color:var(--sage)!important}
 @media (max-width:900px){.portrait:before{inset:-14px -10px 30px 24px}}
+.draftnote{margin-bottom:14px}
+.sidelabel{font-size:11.5px;letter-spacing:2.2px;text-transform:uppercase;color:var(--muted);font-weight:600;margin-bottom:10px}
+.side2 .viewer{height:700px}
+.side2 .pending{height:700px;display:flex;flex-direction:column;justify-content:center}
+.rgrid .viewer{height:820px}
+@media (max-width:900px){.rgrid .viewer,.side2 .viewer{height:600px}.side2 .pending{height:auto}}
